@@ -1,0 +1,18 @@
+.navbar {
+    height: 20vh;
+    width: 100vw;
+    margin: 0, auto;
+    /* padding: 2rem 2rem; */
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 20vh;
+    width: auto;
+}
+
+.contactBtn {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
