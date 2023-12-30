@@ -5,6 +5,7 @@
     /* padding: 2rem 2rem; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -15,4 +16,11 @@
 .contactBtn {
     background-color: rgb(30, 30, 30);
     color: white;
+    margin-right: 5vw;
+}
+
+.menuItem {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 20px;
 }
