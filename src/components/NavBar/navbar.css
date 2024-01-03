@@ -20,7 +20,12 @@
 }
 
 .menuItem {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    margin: 1vw;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: crimson;
+    border-bottom: 3px solid crimson;
 }
