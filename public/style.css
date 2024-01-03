@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background: #f2f2f2;
+    color: black;
+    overflow: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    height: 20vh;
+    width: 100vw;
+    margin: 0, auto;
+    /* padding: 2rem 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 20vh;
+    width: auto;
+}
+
+.contactBtn {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    margin-right: 5vw;
+}
+
+.menuItem {
+    margin: 1vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: crimson;
+    border-bottom: 3px solid crimson;
+}
