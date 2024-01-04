@@ -8,10 +8,11 @@
     border: 1px solid black;
     z-index: 100;
     background: rgb(210, 210, 210);
+    position: fixed;
 }
 
 .menu {
-    margin: 0 2vw 0 0;
+    margin: 0 1vw 0 0;
 }
 
 .logo {
