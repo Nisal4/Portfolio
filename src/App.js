@@ -12,6 +12,9 @@ function App() {
       <hr></hr>
       <br></br>
       <Projects />
+      <br></br>
+      <hr></hr>
+      <br></br>
     </div>
   );
 }
