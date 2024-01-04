@@ -1,7 +1,8 @@
 import React from'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
-import { Link } from'react-scroll';
+// import { Link } from 'react-scroll';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
@@ -10,9 +11,11 @@ const NavBar = () => {
                 <img src={logo} alt='logo' className='logo' />
 
                 <div className='menu'>
-                    <Link to='/' className='menuItem'>Home</Link>
-                    <Link to='Projects' className='menuItem'>Projects</Link>
-                    <Link to='Contact' className='menuItem'>Contact</Link>
+                    <Router>
+                        <Link to='/' className='menuItem'>Home</Link>
+                        <Link to='Projects' className='menuItem'>Projects</Link>
+                        <Link to='Contact' className='menuItem'>Contact</Link>
+                    </Router>
                 </div>
             </nav>
         </div>
