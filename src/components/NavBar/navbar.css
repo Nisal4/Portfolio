@@ -2,10 +2,16 @@
     height: 20vh;
     width: 100vw;
     margin: 0, auto;
-    /* padding: 2rem 2rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid black;
+    z-index: 100;
+    background: rgb(210, 210, 210);
+}
+
+.menu {
+    margin: 0 2vw 0 0;
 }
 
 .logo {
@@ -13,16 +19,11 @@
     width: auto;
 }
 
-.contactBtn {
-    background-color: rgb(30, 30, 30);
-    color: white;
-    margin-right: 5vw;
-}
-
 .menuItem {
     margin: 1vw;
     font-size: 20px;
     cursor: pointer;
+    color: black;
 }
 
 .menuItem:hover {

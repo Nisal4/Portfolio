@@ -1,0 +1,28 @@
+.intro-text {
+    margin-left: 2vw;
+    width: 60vw;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+.name {
+    color: crimson;
+    font-size: 5rem;
+    font-family: 'B612 Mono', monospace;
+    font-weight: 700;
+}
+
+.description-1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.description-2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.statement {
+    font-weight: 400;
+    width: 50vw;
+    text-align: justify;
+}
