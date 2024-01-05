@@ -45,13 +45,19 @@
     padding: 10px;
     text-align: center;
 }
-  
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-img {
     width: 90%;
     height: auto; 
     background-size: cover;
     background-position: center;
-    margin: 1vh 1vw 2vh 1vw;
+    margin: 1vh 0 2vh 0;
 }
   
 .project-description {
