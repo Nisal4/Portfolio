@@ -1,6 +1,10 @@
 import React, { useState, useRef } from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
+import githubLogo from '../../assets/githubLogo.png';
+import linkedinLogo from '../../assets/linkedinLogo.png';
+import resumeLogo from '../../assets/resumeLogo.png';
+
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -26,9 +30,10 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <span className="contact-header">Contact Me</span>
+            <span className="contact-header">Contact</span>
             <div className="contact-section">
                 <div className="contact-form">
+                    <span className='contact-form-header'>Send me a message</span>
                     <form ref={form} onSubmit={sendEmail}>
                         <input
                             type="text"
@@ -51,7 +56,7 @@ const Contact = () => {
                             value={formData.message}
                             onChange={handleChange}
                             placeholder="Leave a Message"
-                            rows="4"
+                            rows="8"
                             required
                         />
                         <button type="submit">Submit</button>
@@ -59,9 +64,30 @@ const Contact = () => {
                 </div>
                 <div className="social-links">
                     <span className="social-header">More of Me</span>
-                    <a href="https://github.com">GitHub</a>
-                    <a href="https://linkedin.com">LinkedIn</a>
-                    <a href="https://twitter.com">Download My Resume</a>
+                    <a href="https://github.com/Nisal4" className='socials' target="_blank" rel="noopener noreferrer">
+                        <div className='link-pic-container'>
+                            <img src={githubLogo} alt='github' className='link-pic'></img>
+                        </div>
+                        <div className='link-text-container'>
+                            Github
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/nisal-attanayake" className='socials' target="_blank" rel="noopener noreferrer">
+                        <div className='link-pic-container'>
+                            <img src={linkedinLogo} alt='github' className='link-pic'></img>
+                        </div>
+                        <div className='link-text-container'>
+                            LinkedIn
+                        </div>
+                    </a>
+                    <a href="https://github.com" className='socials'>
+                        <div className='link-pic-container'>
+                            <img src={resumeLogo} alt='github' className='link-pic'></img>
+                        </div>
+                        <div className='link-text-container'>
+                            Download My Resume
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

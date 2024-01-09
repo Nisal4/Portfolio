@@ -22,6 +22,14 @@
     background-color: #f4f4f4; 
 }
 
+.contact-form-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
 .contact-form, .social-links {
     flex: 1;
     margin: 10px;
@@ -67,6 +75,19 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #ddd; 
+    padding: 4vh 2vw;          
+    border-radius: 10px;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 10px;
+    background-color: #f4f4f4; 
+    text-align: center;
+}
+
+.link-pic {
+    height: 8vh;
+    width: auto;
+    border-radius: 50%;
 }
 
 .social-header {
@@ -76,12 +97,22 @@ button:hover {
 }
 
 .social-links a {
-    display: block;
+    display: inline-block;
     margin-bottom: 2vh;
-    color: #007bff;
+    color: #000000;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: crimson;
+    border-bottom: 3px solid crimson
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5vh 0;
+    font-size: 20px;
 }
