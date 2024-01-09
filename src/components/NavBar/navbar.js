@@ -7,7 +7,10 @@ const NavBar = () => {
     return (
         <div className='navbar-container'>
             <nav className='navbar'>
-                <img src={logo} alt='logo' className='logo' />
+                <Link to='/' className='logo-container' smooth={true} offset={-300} duration={1000}>
+                    <img src={logo} alt='logo' className='logo' />
+                </Link>
+                
 
                 <div className='menu'>
                     <Link to='/' className='menuItem' activeClass='active' smooth={true} offset={-300} duration={1000}>Home</Link>

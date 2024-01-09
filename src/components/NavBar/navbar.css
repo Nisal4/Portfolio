@@ -25,6 +25,10 @@
     width: auto;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .menuItem {
     margin: 1vw;
     font-size: 1.5rem;
