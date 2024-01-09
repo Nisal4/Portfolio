@@ -7,17 +7,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       <Home />
-      <br></br>
       <hr></hr>
-      <br></br>
       <Projects />
-      <br></br>
       <hr></hr>
-      <br></br>
       <Contact />
-      <br></br>
     </div>
   );
 }

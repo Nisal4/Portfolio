@@ -32,7 +32,7 @@ const projectsData = [
 
 const Projects = () => {
     return (
-        <div className='projects-container'>
+        <div className='projects-container' id="Projects">
             <div className='content'>
                 <span className='header'>PROJECTS</span>
                 <div className='project-list'>

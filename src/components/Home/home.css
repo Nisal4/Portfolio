@@ -5,6 +5,9 @@
     margin-bottom: 8vh;
 }
 
+.intro {
+    margin-top: 25vh;
+}
 .name {
     color: crimson;
     font-size: 5rem;

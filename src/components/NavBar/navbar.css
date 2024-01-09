@@ -1,14 +1,19 @@
 .navbar {
     height: 20vh;
     width: 100vw;
-    margin: 0, auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
-    z-index: 100;
     background: rgb(210, 210, 210);
+}
+
+.navbar-container {
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .menu {
@@ -22,7 +27,8 @@
 
 .menuItem {
     margin: 1vw;
-    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
     cursor: pointer;
     color: black;
 }
