@@ -23,7 +23,7 @@ const projectsData = [
 
     {
         title: 'BoomerBot',
-        description: 'My second group project with collaborators Adriana Saavedra, Ahmad Wali, and Krystalin Castillo. This app was made using React and Express. It is a chatbot that talks to the user as if they were a boomer by implementing googles Gemini Pro Ai API.',
+        description: 'My second group project with collaborators Adriana Saavedra, Ahmad Wali, and Krystalin Castillo. This app was made using React and Express. It is a chatbot that talks to the user as if they were a boomer by implementing googles Gemini Pro AI API.',
         image: boomerbot,
         githubLink: 'https://github.com/Nisal4/BoomerBot/tree/main',
         link: 'https://boomerbot-c3175a34bfb5.herokuapp.com/', 
