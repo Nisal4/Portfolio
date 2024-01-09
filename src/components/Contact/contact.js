@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import githubLogo from '../../assets/githubLogo.png';
 import linkedinLogo from '../../assets/linkedinLogo.png';
 import resumeLogo from '../../assets/resumeLogo.png';
+import resume from '../../assets/resume.pdf';
 
 
 const Contact = () => {
@@ -80,7 +81,7 @@ const Contact = () => {
                             LinkedIn
                         </div>
                     </a>
-                    <a href="https://github.com" className='socials'>
+                    <a href={resume} download="Nisal_Attnayake_Resume" className='socials'>
                         <div className='link-pic-container'>
                             <img src={resumeLogo} alt='github' className='link-pic'></img>
                         </div>
