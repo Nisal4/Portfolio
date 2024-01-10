@@ -1,12 +1,15 @@
 .intro-text {
     margin-left: 2vw;
     width: 60vw;
-    margin-top: 10vh;
+    margin-top: 1vh;
     margin-bottom: 8vh;
 }
 
 .intro {
+    height: 42vh;
     margin-top: 27vh;
+    display: flex;
+    flex-direction: row;
 }
 .name {
     color: crimson;
@@ -28,4 +31,78 @@
     font-weight: 400;
     width: 50vw;
     text-align: justify;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    right: 16.98%;
+}
+
+.carousel {
+    height: 42vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillImg {
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s ease-in-out;
+}
+
+.left-arrow:hover {
+    color: crimson;
+    transform: scale(1.2);
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s ease-in-out;
+}
+
+.right-arrow:hover {
+    color: crimson;
+    transform: scale(1.2);
+}
+
+.active {
+    width: auto;
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8vh;
 }
