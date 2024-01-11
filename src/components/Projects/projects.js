@@ -34,7 +34,7 @@ const Projects = () => {
     return (
         <div className='projects-container' id="Projects">
             <div className='content'>
-                <span className='header'>PROJECTS</span>
+                <span className='header'>Projects</span>
                 <div className='project-list'>
                     {projectsData.map((project, index) => (
                         <div className='project' key={index}>
