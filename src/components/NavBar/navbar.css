@@ -41,3 +41,89 @@
     color: crimson;
     border-bottom: 3px solid crimson;
 }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .navbar {
+        width: 100vw;
+        height: 100px;
+        border: 1px solid black;
+        background: rgb(210, 210, 210);
+    }
+    
+    .navbar-container {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    
+    .logo-container {
+        height: 100px;
+        width: auto;
+        left: 0;
+    }
+
+    .logo {
+        height: 100px;
+        width: auto;
+        left: 0;
+        margin: 0;
+    }
+  
+    .menu {
+        margin-right: 12px;
+    }
+    
+    .menuItem {
+        font-size: 1.2rem;
+        font-weight: 700;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .menuItem:hover {
+        color: crimson;
+        border-bottom: 3px solid crimson;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        width: 100vw;
+        height: 50px;
+    }
+    
+    .navbar-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        height: 80px;
+    }
+    
+    .menu {
+        margin: 0 1vw 0 0;
+    }
+    
+    .logo {
+        height: 20vh;
+        width: auto;
+    }
+    
+    .logo:hover {
+        cursor: pointer;
+    }
+    
+    .menuItem {
+        margin: 1vw;
+        font-size: 1.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .menuItem:hover {
+        color: crimson;
+        border-bottom: 3px solid crimson;
+    }
+}
