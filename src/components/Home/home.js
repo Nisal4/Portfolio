@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "./home.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import javascriptLogo from '../../assets/javascriptLogo.png'
@@ -123,7 +123,12 @@ const Home = () => {
         setCurrent(current === carouselImg.length - 1 ? 0 : current + 1);
     };
 
-    
+    useEffect (() => {
+        const interval = setInterval(() => {
+            setCurrent(current === carouselImg.length - 1 ? 0 : current + 1);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [current]);
 
     return (
         <section className="intro" id='/' >
@@ -139,7 +144,6 @@ const Home = () => {
             </div>
 
             <div className="skills">
-                <span className="skill-title">Skills</span>
                 <div className="carousel">
                     <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>
                     <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/>
@@ -147,6 +151,7 @@ const Home = () => {
                         return (
                             <div className={index === current ? 'active' : 'inactive'} key={index}>
                                 {index === current && (<img src={slide.image} alt='skillImg' className="skillImg"></img>)}
+                                {index === current && (<div className="skill-title">{slide.title}</div>)}
                             </div>
                         )
                     })}
