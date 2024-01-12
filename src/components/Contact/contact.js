@@ -65,30 +65,32 @@ const Contact = () => {
                 </div>
                 <div className="social-links">
                     <span className="social-header">More of Me</span>
-                    <a href="https://github.com/Nisal4" className='socials' target="_blank" rel="noopener noreferrer">
-                        <div className='link-pic-container'>
-                            <img src={githubLogo} alt='github' className='link-pic'></img>
-                        </div>
-                        <div className='link-text-container'>
-                            Github
-                        </div>
-                    </a>
-                    <a href="https://linkedin.com/in/nisal-attanayake" className='socials' target="_blank" rel="noopener noreferrer">
-                        <div className='link-pic-container'>
-                            <img src={linkedinLogo} alt='github' className='link-pic'></img>
-                        </div>
-                        <div className='link-text-container'>
-                            LinkedIn
-                        </div>
-                    </a>
-                    <a href={resume} download="Nisal_Attnayake_Resume" className='socials'>
-                        <div className='link-pic-container'>
-                            <img src={resumeLogo} alt='github' className='link-pic'></img>
-                        </div>
-                        <div className='link-text-container'>
-                            Download My Resume
-                        </div>
-                    </a>
+                    <div className='social-links-container'>
+                        <a href="https://github.com/Nisal4" className='socials' target="_blank" rel="noopener noreferrer">
+                            <div className='link-pic-container'>
+                                <img src={githubLogo} alt='github' className='link-pic'></img>
+                            </div>
+                            <div className='link-text-container'>
+                                Github
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/nisal-attanayake" className='socials' target="_blank" rel="noopener noreferrer">
+                            <div className='link-pic-container'>
+                                <img src={linkedinLogo} alt='github' className='link-pic'></img>
+                            </div>
+                            <div className='link-text-container'>
+                                LinkedIn
+                            </div>
+                        </a>
+                        <a href={resume} download="Nisal_Attnayake_Resume" className='socials'>
+                            <div className='link-pic-container'>
+                                <img src={resumeLogo} alt='github' className='link-pic'></img>
+                            </div>
+                            <div className='link-text-container'>
+                                Download My Resume
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

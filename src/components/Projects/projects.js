@@ -39,13 +39,17 @@ const Projects = () => {
                     {projectsData.map((project, index) => (
                         <div className='project' key={index}>
                             <div className='project-title'>{project.title}</div>
-                            <div className='img-container'>
-                                <img src={project.image} className='project-img' alt='project-img' />
-                            </div>
-                            <div className='project-description'>{project.description}</div>
-                            <div className='link-container'>
-                                <a className='github-link' href={project.githubLink} target="_blank" rel="noopener noreferrer">Github Link</a>
-                                <a className='project-link' href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+                            <div className='descrip-image'>
+                                <div className='img-container'>
+                                    <img src={project.image} className='project-img' alt='project-img' />
+                                </div>
+                                <div className='descrip-link'>
+                                    <div className='project-description'>{project.description}</div>
+                                    <div className='link-container'>
+                                        <a className='github-link' href={project.githubLink} target="_blank" rel="noopener noreferrer">Github Link</a>
+                                        <a className='project-link' href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     ))}
