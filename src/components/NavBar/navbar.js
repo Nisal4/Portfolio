@@ -8,7 +8,7 @@ const NavBar = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 480 && window.innerWidth >= 390) {
+            if ((window.innerWidth >= 375) && (window.innerWidth <= 483)) {
                 setProjectOffset(-100);
             } else {
                 setProjectOffset(-187);
@@ -26,10 +26,10 @@ const NavBar = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth < 768) {
+            if ((window.innerWidth >= 376) && (window.innerWidth <= 483)) {
                 setContactOffset(-117);
             } else {
-                setContactOffset(1000);
+                setContactOffset(-113);
             }
         };
 
