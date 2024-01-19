@@ -82,7 +82,7 @@ const Contact = () => {
                                 LinkedIn
                             </div>
                         </a>
-                        <a href={resume} download="Nisal_Attnayake_Resume" className='socials'>
+                        <a href={resume} download="Nisal Attanayake - SE Resume" className='socials'>
                             <div className='link-pic-container'>
                                 <img src={resumeLogo} alt='github' className='link-pic'></img>
                             </div>
