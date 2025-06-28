@@ -16,6 +16,10 @@ import gitLogo from '../../assets/gitLogo.png'
 import vscodeLogo from '../../assets/vscodeLogo.png'
 import sqlLogo from '../../assets/sqlLogo.png'
 import rLogo from '../../assets/rLogo.png'
+import javaLogo from '../../assets/javaLogo.png'
+import wixLogo from '../../assets/wixLogo.png'
+import typescriptLogo from '../../assets/typescriptLogo.png'
+import nextLogo from '../../assets/nextLogo.png'
 
 
 const carouselImg = [
@@ -107,6 +111,30 @@ const carouselImg = [
         image: rLogo,
         title: 'R',
         index: 14,
+    },
+
+    {
+        image: javaLogo,
+        title: 'Java',
+        index: 15,
+    },
+
+    {
+        image: wixLogo,
+        title: 'Wix',
+        index: 16,
+    },
+
+    {
+        image: typescriptLogo,
+        title: 'TypeScript',
+        index: 17,
+    },
+    
+    {
+        image: nextLogo,
+        title: 'Next.js',
+        index: 18,
     },
 ]
 
