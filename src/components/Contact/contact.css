@@ -261,7 +261,7 @@ button:hover {
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+/* @media only screen and (min-width: 321px) and (max-width: 480px) {
     .contact {
         margin-bottom: 0;
     }
@@ -524,4 +524,4 @@ button:hover {
         margin: .5vh 0;
         font-size: 20px;
     }
-}
+} */
