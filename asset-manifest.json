@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cfec7f0b.css",
+    "main.css": "/portfolio/static/css/main.e82b2398.css",
     "main.js": "/portfolio/static/js/main.780c1f70.js",
     "static/media/togethr.png": "/portfolio/static/media/togethr.f141dff1e77829a51c62.png",
     "static/media/myrefuge.png": "/portfolio/static/media/myrefuge.c822b7f6decdb2fd8096.png",
@@ -17,11 +17,11 @@
     "static/media/postgresqlLogo.png": "/portfolio/static/media/postgresqlLogo.a8c2fa06ae0817a837f5.png",
     "static/media/javaLogo.png": "/portfolio/static/media/javaLogo.6c64373d3b7415758078.png",
     "index.html": "/portfolio/index.html",
-    "main.cfec7f0b.css.map": "/portfolio/static/css/main.cfec7f0b.css.map",
+    "main.e82b2398.css.map": "/portfolio/static/css/main.e82b2398.css.map",
     "main.780c1f70.js.map": "/portfolio/static/js/main.780c1f70.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfec7f0b.css",
+    "static/css/main.e82b2398.css",
     "static/js/main.780c1f70.js"
   ]
 }
