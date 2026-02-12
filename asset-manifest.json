@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e82b2398.css",
-    "main.js": "/Portfolio/static/js/main.c0923a88.js",
-    "static/media/togethr.png": "/Portfolio/static/media/togethr.f141dff1e77829a51c62.png",
-    "static/media/myrefuge.png": "/Portfolio/static/media/myrefuge.c822b7f6decdb2fd8096.png",
-    "static/media/boomerbot.png": "/Portfolio/static/media/boomerbot.d6c26a96c1296ee2de94.png",
-    "static/media/logo.png": "/Portfolio/static/media/logo.c19ffd8a7c8494aae4f7.png",
-    "static/media/rLogo.png": "/Portfolio/static/media/rLogo.a05f0d1389387a91a676.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.04aa878e8847b19f3852.pdf",
-    "static/media/flappy.png": "/Portfolio/static/media/flappy.2a64ae57e96517f25d57.png",
-    "static/media/nextLogo.png": "/Portfolio/static/media/nextLogo.2bbb836df000fa5c293d.png",
-    "static/media/wixLogo.png": "/Portfolio/static/media/wixLogo.8ba9010784032ed0972c.png",
-    "static/media/typescriptLogo.png": "/Portfolio/static/media/typescriptLogo.2d275f3100a892bea946.png",
-    "static/media/linkedinLogo.png": "/Portfolio/static/media/linkedinLogo.df3f373c358bcfdd92bb.png",
-    "static/media/reactLogo.png": "/Portfolio/static/media/reactLogo.3b492bade043821ded42.png",
-    "static/media/postgresqlLogo.png": "/Portfolio/static/media/postgresqlLogo.a8c2fa06ae0817a837f5.png",
-    "static/media/javaLogo.png": "/Portfolio/static/media/javaLogo.6c64373d3b7415758078.png",
-    "index.html": "/Portfolio/index.html",
-    "main.e82b2398.css.map": "/Portfolio/static/css/main.e82b2398.css.map",
-    "main.c0923a88.js.map": "/Portfolio/static/js/main.c0923a88.js.map"
+    "main.css": "/portfolio/static/css/main.cfec7f0b.css",
+    "main.js": "/portfolio/static/js/main.780c1f70.js",
+    "static/media/togethr.png": "/portfolio/static/media/togethr.f141dff1e77829a51c62.png",
+    "static/media/myrefuge.png": "/portfolio/static/media/myrefuge.c822b7f6decdb2fd8096.png",
+    "static/media/boomerbot.png": "/portfolio/static/media/boomerbot.d6c26a96c1296ee2de94.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.c19ffd8a7c8494aae4f7.png",
+    "static/media/rLogo.png": "/portfolio/static/media/rLogo.a05f0d1389387a91a676.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.04aa878e8847b19f3852.pdf",
+    "static/media/flappy.png": "/portfolio/static/media/flappy.2a64ae57e96517f25d57.png",
+    "static/media/nextLogo.png": "/portfolio/static/media/nextLogo.2bbb836df000fa5c293d.png",
+    "static/media/wixLogo.png": "/portfolio/static/media/wixLogo.8ba9010784032ed0972c.png",
+    "static/media/typescriptLogo.png": "/portfolio/static/media/typescriptLogo.2d275f3100a892bea946.png",
+    "static/media/linkedinLogo.png": "/portfolio/static/media/linkedinLogo.df3f373c358bcfdd92bb.png",
+    "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.3b492bade043821ded42.png",
+    "static/media/postgresqlLogo.png": "/portfolio/static/media/postgresqlLogo.a8c2fa06ae0817a837f5.png",
+    "static/media/javaLogo.png": "/portfolio/static/media/javaLogo.6c64373d3b7415758078.png",
+    "index.html": "/portfolio/index.html",
+    "main.cfec7f0b.css.map": "/portfolio/static/css/main.cfec7f0b.css.map",
+    "main.780c1f70.js.map": "/portfolio/static/js/main.780c1f70.js.map"
   },
   "entrypoints": [
-    "static/css/main.e82b2398.css",
-    "static/js/main.c0923a88.js"
+    "static/css/main.cfec7f0b.css",
+    "static/js/main.780c1f70.js"
   ]
 }
