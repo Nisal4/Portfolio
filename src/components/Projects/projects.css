@@ -65,6 +65,7 @@
     padding: 10px;
     text-align: start;
     height: 24vh;
+    margin-bottom: 1vh;
 }
 
 .link-container {
@@ -72,6 +73,12 @@
     justify-content: space-evenly;
     margin: 2vh 0 4vh 0;
 }
+
+.description-container {
+    display: flex;
+    margin-bottom: 10vh;
+}
+
 .github-link, .project-link {
     display: inline-block;
     padding: 10px 15px;
