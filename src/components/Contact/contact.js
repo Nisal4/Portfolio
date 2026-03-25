@@ -37,6 +37,7 @@ const Contact = () => {
                     <span className='contact-form-header'>Send me a message</span>
                     <form ref={form} onSubmit={sendEmail}>
                         <input
+                            className='name-text'
                             type="text"
                             name="name"
                             value={formData.name}
@@ -45,6 +46,7 @@ const Contact = () => {
                             required
                         />
                         <input
+                            className='email-text'
                             type="email"
                             name="email"
                             value={formData.email}

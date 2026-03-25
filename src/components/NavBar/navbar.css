@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    font-family: 'B612 Mono', monospace;
 }
 
 .menu {
@@ -56,6 +57,7 @@
         top: 0;
         left: 0;
         z-index: 100;
+        font-family: 'B612 Mono', monospace;
     }
     
     .logo-container {
@@ -103,6 +105,7 @@
         top: 0;
         left: 0;
         z-index: 100;
+        font-family: 'B612 Mono', monospace;
     }
     
     .logo-container {
@@ -150,6 +153,7 @@
         top: 0;
         left: 0;
         z-index: 100;
+        font-family: 'B612 Mono', monospace;
     }
     
     .logo-container {

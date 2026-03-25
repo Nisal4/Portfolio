@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10vh;
+    font-family: 'B612 Mono', monospace;
 }
   
 .content {
@@ -42,7 +43,6 @@
     font-size: 1.5em;
     margin-top: 1vh;
     font-weight: bold;
-    background-color: #f4f4f4;
     padding: 10px;
     text-align: center;
 }
@@ -100,6 +100,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 10vh;
+        font-family: 'B612 Mono', monospace;
     }
       
     .content {
@@ -138,7 +139,6 @@
         font-size: 1.5em;
         margin-top: 1vh;
         font-weight: bold;
-        background-color: #f4f4f4;
         padding: 10px;
         text-align: center;
     }
@@ -190,6 +190,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 10vh;
+        font-family: 'B612 Mono', monospace;
     }
       
     .content {
@@ -228,7 +229,6 @@
         font-size: 1.5em;
         margin-top: 1vh;
         font-weight: bold;
-        background-color: #f4f4f4;
         padding: 10px;
         text-align: center;
     }
@@ -270,22 +270,11 @@
     
     .link-container {
         display: flex;
-        justify-content: space-evenly;
-        margin: 23px 0 0 0;
+        flex-direction: column;
+        margin: 0 10px 0 0;
+        
     }
 
-    .github-link, .project-link {
-        display: inline-block;
-        padding: 10px 15px;
-        text-decoration: none;
-        color: white;
-        background-color: #000000;
-        border-radius: 5px;
-        text-align: center;
-        position: relative;
-        bottom: -52px;
-        margin: 0 20px 0 20px;
-    }
       
     .github-link:hover, .project-link:hover {
         background-color: crimson;
@@ -299,6 +288,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 10vh;
+        font-family: 'B612 Mono', monospace;
     }
       
     .content {
@@ -337,7 +327,6 @@
         font-size: 1.5em;
         margin-top: 1vh;
         font-weight: bold;
-        background-color: #f4f4f4;
         padding: 10px;
         text-align: center;
     }

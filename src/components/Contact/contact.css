@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .contact {
     margin-bottom: 7vh;
+    font-family: 'B612 Mono', monospace;
 }
-
 .contact-section {
     display: flex;
     justify-content: space-between;
@@ -17,6 +19,14 @@
     margin: 2vh 0;
 }
 
+.name-text {
+    font-family: 'B612 Mono', monospace;
+}
+
+.email-text {
+    font-family: 'B612 Mono', monospace;
+}
+
 .contact-form {
     border: 1px solid #ddd; 
     padding: 4vh 2vw;          
@@ -24,6 +34,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin: 10px;
     background-color: #f4f4f4; 
+    font-family: 'B612 Mono', monospace;
 }
 
 .contact-form-header {
@@ -32,6 +43,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 3vh;
+    font-family: 'B612 Mono', monospace;
 }
 
 .contact-form, .social-links {
@@ -68,6 +80,7 @@ button {
     cursor: pointer;
     font-weight: 700;
     transition: 0.3s ease-in-out;
+    font-family: 'B612 Mono', monospace;
 }
 
 button:hover {
@@ -131,6 +144,7 @@ button:hover {
 @media (min-width: 1025px) {
     .contact {
         margin-bottom: 0;
+        font-family: 'B612 Mono', monospace;
     }
     
     .contact-section {
@@ -148,7 +162,15 @@ button:hover {
         font-weight: 700;
         margin: 2vh 0;
     }
-    
+
+    .name-text {
+    font-family: 'B612 Mono', monospace;
+    }
+
+    .email-text {
+    font-family: 'B612 Mono', monospace;
+    }
+
     .contact-form {
         border: 1px solid #ddd; 
         padding: 4vh 2vw;          
@@ -261,9 +283,10 @@ button:hover {
     }
 }
 
-/* @media only screen and (min-width: 321px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
     .contact {
         margin-bottom: 0;
+        font-family: 'B612 Mono', monospace;
     }
     
     .contact-section {
@@ -281,7 +304,14 @@ button:hover {
         font-weight: 700;
         margin: 2vh 0;
     }
-    
+    .name-text {
+    font-family: 'B612 Mono', monospace;
+    }
+
+    .email-text {
+    font-family: 'B612 Mono', monospace;
+    }
+
     .contact-form {
         border: 1px solid #ddd; 
         padding: 4vh 2vw;          
@@ -397,6 +427,7 @@ button:hover {
 @media only screen and (min-width: 667px) and (max-width: 932px) and (orientation: landscape) {
     .contact {
         margin-bottom: 0;
+        font-family: 'B612 Mono', monospace;
     }
     
     .contact-section {
@@ -421,6 +452,13 @@ button:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
         margin: 10px;
         background-color: #f4f4f4; 
+    }
+    .name-text {
+    font-family: 'B612 Mono', monospace;
+    }
+
+    .email-text {
+    font-family: 'B612 Mono', monospace;
     }
     
     .contact-form-header {
@@ -524,4 +562,4 @@ button:hover {
         margin: .5vh 0;
         font-size: 20px;
     }
-} */
+}

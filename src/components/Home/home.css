@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .intro-text {
     margin-left: 2vw;
     width: 60vw;
@@ -10,6 +12,7 @@
     margin-top: 27vh;
     display: flex;
     flex-direction: row;
+    font-family: 'B612 Mono', monospace;
 }
 .name {
     color: crimson;
@@ -37,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'B612 Mono', monospace;
 
 }
 
@@ -150,6 +154,7 @@
         height: 352px;
         display: flex;
         flex-direction: column;
+        font-family: 'B612 Mono', monospace;
     }
     .name {
         color: crimson;
@@ -190,6 +195,7 @@
         align-items: center;
         position: relative;
         top: 373px;
+        font-family: 'B612 Mono', monospace;
     }
     
     .carousel {
@@ -303,6 +309,7 @@
         height: 352px;
         display: flex;
         flex-direction: column;
+        font-family: 'B612 Mono', monospace;
     }
     .name {
         color: crimson;
@@ -339,6 +346,7 @@
         align-items: center;
         position: relative;
         top: 297px;
+        font-family: 'B612 Mono', monospace;
     }
     
     .carousel {
@@ -452,6 +460,7 @@
         margin-top: 130px;
         display: flex;
         flex-direction: row;
+        font-family: 'B612 Mono', monospace;
     }
     .name {
         color: crimson;
@@ -480,6 +489,7 @@
         justify-content: center;
         align-items: center;
         margin-right: 20px;
+        font-family: 'B612 Mono', monospace;
     }
     
     .carousel {
